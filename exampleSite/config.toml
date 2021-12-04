@@ -271,8 +271,8 @@ googleAnalytics = ""
         #title = "username"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "actuariodatascientist"
+        url = "//linkedin.com/in/actuariodatascientist"
+        title = ""
         #[[params.social.list]]
         #icon = "fab fa-twitter-square"
         #url = "//twitter.com/username"
