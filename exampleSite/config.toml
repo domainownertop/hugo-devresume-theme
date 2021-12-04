@@ -72,9 +72,9 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Machine Learning"
         [[params.skills.list.items]]
-        details = "Criptomonedas"
+        details = "Estadística"
         [[params.skills.list.items]]
-        details = "Dominios"
+        details = "Programación"
 
 
 
