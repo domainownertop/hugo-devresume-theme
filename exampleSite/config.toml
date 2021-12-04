@@ -1,10 +1,10 @@
 # Page settings
 
-baseURL = "http://example.org/"
-languageCode = "en"
+baseURL = "http://curriculum.ferran.co/"
+languageCode = "es"
 title = ""
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = ""
 
 
 
@@ -24,8 +24,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Ferran Arroyo"
+        tagline = "Data Scientist"
         avatar = "avatar.png"
 
 
@@ -302,8 +302,3 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/username"
         title = "@username"
-
-
-
-
-
