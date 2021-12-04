@@ -16,7 +16,7 @@ googleAnalytics = ""
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
 
-    primaryColor = "#54B689"
+    primaryColor = "#000000"
     textPrimaryColor = "#292929"
 
 
@@ -45,7 +45,7 @@ googleAnalytics = ""
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "hola@ferran.co"
+        text = "ferran_arroyo@hotmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
@@ -61,32 +61,20 @@ googleAnalytics = ""
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Lenguajes de programación"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "R"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Python"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Conocimiento técnico"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Machine Learning"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Criptomonedas"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Dominios"
 
 
 
@@ -99,13 +87,17 @@ googleAnalytics = ""
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Microsoft Professional Program on Data Science"
+        university = "Microsoft Academy"
+        dates = "2016 - 2016"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "Master en Data Science"
+        university = "MBIT School"
+        dates = "2015 - 2016"
+        [[params.education.list]]
+        degree = "Licenciatura en Ciencias Acturiales y Financieras"
+        university = "Universitat de Barcelona"
+        dates = "2010 - 2013"
 
 
 
@@ -115,7 +107,7 @@ googleAnalytics = ""
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -137,11 +129,14 @@ googleAnalytics = ""
         enable = true
 
         [[params.languages.list]]
-        name = "English"
-        level = "Native"
+        name = "Castellano"
+        level = "Nativo"
         [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
+        name = "Catalán"
+        level = "Nativo"
+        [[params.languages.list]]
+        name = "Inglés"
+        level = "Profesional"
 
 
 
@@ -154,15 +149,17 @@ googleAnalytics = ""
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Machine Learning"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Deep Learning"
         [[params.interests.list]]
-        name = "Photography"
+        name = "Inversion en dominios"
         [[params.interests.list]]
-        name = "Travelling"
-
-
+        name = "Criptomonedas y tecnología Blockchain"
+        [[params.interests.list]]
+        name = "Creación de páginas web"
+        [[params.interests.list]]
+        name = "Nuevas Tecnologías"
 
 
 
@@ -171,7 +168,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = "Soy licenciado en Ciencias Actuariales, y tengo un Master en Data Science por MBIT School, así como la certificación del Microsoft Professional Program en Data Science. He pasado por un amplio abanico de nomenclaturas laborales relacionadas con el dato, como Actuario, Data Analyst, Data Miner y Data Scientist (actualmente). Mi experiencia trabajando con datos es superior a los 10 años. He trabajado, y trabajo en grandes compañías del sector asegurador español donde participo en distintos proyectos de datos para la aplicación del Machine Learning con el objetivo de la optimización y mejora de los distintos procesos de la compañías. Soy un apasionado de todo lo que envuelve a la tecnología blockchain y de las aplicaciones prácticas que tiene. Mi otra gran pasión tiene que ver con el mundo de los dominios y, al igual que con las criptomonedas, parte de mi cartera de inversión la tengo diversificada en este tipo de activos digitales."
 
 
 
@@ -184,50 +181,34 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        title = "Data Scientist"
+        dates = "2016 - Presente"
+        company = "AXA"
+        details = "Integrado en el equipo de Data Scientists del departamento de Big Data | Behavioral Pricing, las funciones más importantes que realizo son:"
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Creación, implementación y mantenimiento de distintos modelos de negocio de la compañía, tales como el Market Prediction, Churn Behaviour o Cross-Selling."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Creación, implementación y mantenimiento de distintos dashboards para el análisis y seguimiento del negocio."
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        title = "Data Scientist"
+        dates = "2015 - 2016"
+        company = "Aegon-Santander"
+        details = "Integrado en el departamento técnico, las funciones más relevantes del puesto fueron:"
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Creación, implementación y mantenimiento de Modelo Predictivo de Fraude para la optimización en la investigación."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Creación, implementación y mantenimiento de Modelo Descriptivo para la elaboración de nuevas tablas de preexistencia optimizadas."
 
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Data Analyst"
+        dates = "2012 - 2015"
+        company = "Fidias Actuarios"
+        details = "Formando parte del equipo de actuarios de la consultora, las funciones más relevantes del puesto fueron:"
+        [[params.experience.list.items]]
+        details = "Modelización predictiva para elaboración de artículos técnicos de pensiones."
+        [[params.experience.list.items]]
+        details = "Peritación judicial.Cálculo del lucro cesante y daño emergente."
 
 
 
@@ -243,20 +224,14 @@ googleAnalytics = ""
         enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Curso de inversión en criptomonedas y NFT de cero a experto"
+        meta = "Formación"
+        tagline = "Curso para aprender a invertir mediante las mejores estrategias en activos criptográficos como Bitcoin, Ethereum o los NFTs en Udemy."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        title = "Knowledge Trends"
+        meta = "Emprendimiento"
+        tagline = "Comunidad de instructores de Udemy."
 
 
 
@@ -267,7 +242,7 @@ googleAnalytics = ""
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -290,15 +265,15 @@ googleAnalytics = ""
     [params.social]
         enable = true
 
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        #[[params.social.list]]
+        #icon = "fab fa-github-square"
+        #url = "//github.com/username"
+        #title = "username"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/username"
-        title = "username"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        title = "actuariodatascientist"
+        #[[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #url = "//twitter.com/username"
+        #title = "@username"
