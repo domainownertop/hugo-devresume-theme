@@ -49,7 +49,7 @@ googleAnalytics = ""
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.ferran.co"
+        text = "ferran.co"
 
 
 
