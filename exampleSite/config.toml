@@ -36,20 +36,20 @@ googleAnalytics = ""
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Madrid"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "622318401"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        text = "hola@ferran.co"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.yourwebsite.com"
+        text = "www.ferran.co"
 
 
 
