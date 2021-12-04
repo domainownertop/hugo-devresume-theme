@@ -1,16 +1,16 @@
 - id: awards
-  translation: Awards
+  translation: Premios
 - id: education
-  translation: Education
+  translation: Formacion
 - id: experiences
-  translation: Work Experience
+  translation: Experiencia Laboral
 - id: information
-  translation: Information
+  translation: Información adicional
 - id: interests
-  translation: Interests
+  translation: Intereses
 - id: languages
-  translation: Languages
+  translation: Idiomas
 - id: projects
-  translation: Projects
+  translation: Proyectos
 - id: skills
-  translation: Skills
+  translation: Habilidades
